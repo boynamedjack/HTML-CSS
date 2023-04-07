@@ -1,0 +1,47 @@
+html {background-image: url(images/background.jpg) ;
+    font-family: 'Delicious Handrawn', cursive;
+   
+    background-size: cover;
+}
+.container {color: white; text-align: center ;
+}
+.banner {text-align: right;
+    border-bottom: 1px solid white;
+    flex-direction: row;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    justify-content: space-between;}
+
+.freshest {float: left;
+}
+ .main {border-bottom: 1px solid white;}
+
+h1 {color: white;
+    text-align: center;
+    margin-top: 175px;
+    
+}
+
+h2 {text-align: left;
+        color: white;}
+p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: overline;
+    
+}
+nav {text-align: right;
+    color: white;
+    justify-content: space-between;}
+
+a{color: white;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Delicious Handrawn';
+    src: url('https://fonts.googleapis.com/css2?family=Delicious+Handdrawn');
+  }
+  
