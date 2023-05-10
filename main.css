@@ -1,9 +1,14 @@
 html {background-image: url(images/background.jpg) ;
     font-family: 'Delicious Handrawn', cursive;
-   
-    background-size: cover;
+
+    
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position:top
+    padding: 100px 0;
 }
-.container {color: white; text-align: center ;
+
+.containera {color: white; text-align: center ;
 }
 .banner {text-align: right;
     border-bottom: 1px solid white;
@@ -44,4 +49,3 @@ a{color: white;
     font-family: 'Delicious Handrawn';
     src: url('https://fonts.googleapis.com/css2?family=Delicious+Handdrawn');
   }
-  

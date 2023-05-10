@@ -1,98 +1,97 @@
 html {background-color: black;
-    font-family: 'Delicious Handrawn', cursive;
+  font-family: 'Delicious Handrawn', cursive;
 }
 
 .banner {text-align: right;
-    border-bottom: 1px solid white;
-    flex-direction: row;
-    color: white;
-    padding-left: 40px;
-    padding-top: 20px;
-    justify-content: space-between;}
+  border-bottom: 1px solid white;
+  flex-direction: row;
+  color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+  justify-content: space-between;}
 
-    header {background-color: black;}
+  header {background-color: black;}
 .freshest {float: left;}
-    a {color: red;
-    text-decoration: none;}
+  a {color: red;
+  text-decoration: none;}
 
-    h2 {text-align: left;}
+  h2 {text-align: left;}
 
-    p {color: white;
-    ;
+  p {color: white;
+  ;
 margin-bottom: 100px
 ;
 font-size: larger;}
-
+.container {margin-top: 250px;}
 
 
 .image {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    max-width: 100%;
-    height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .description {
-    display: inline-block;
-    vertical-align: top;
-    max-width: 70%;}
+  display: inline-block;
+  vertical-align: top;
+  max-width: 70%;}
 
-    .container {
-        display: flex;
-        align-items: flex-start;
-      }
-      
-      .description-wrapper {
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-        flex: 1;
-      }
-      
-
-      .container2 { margin-top: 20px;
-        
-      }
-      
-      .img2 {
-       float: right;
-      }
-      
-      .pine {
-        float: left;
-      }
-      
-      h3 {
-        margin-top: 0;
-        color: red;
-      }
-      
-      .description2 {
-        
-      }
-
-      
+  .container {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 275px;
+    }
     
-        .container3 {
-            
-          }
-          .pasta {float: right;
-        
-    padding-top: 150px;}
-          
-          .description3 {
-            display: flex;
-            flex-direction: column;
-            margin-left: 20px;
-            flex: 1;
-          }
+    .description-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      flex: 1;
+    }
+    
 
-          @font-face {
-            font-family: 'Delicious Handrawn';
-            src: url('https://fonts.googleapis.com/css2?family=Delicious+Handdrawn');
-          }
+    .container2 { margin-top: 50px;
+      
+    }
+    
+    .img2 {
+     float: right;
+    }
+    
+    .pine {
+      float: left;
+    }
+    
+    h3 {
+      margin-top: 0;
+      color: red;
+    }
+    
+    
+
+    
+  
+      .container3 { margin-top: 200px;
           
-          body {
-            
-          }
+        }
+        .pasta {float: right;
+      
+  padding-top: 150px;}
+        
+        .description3 {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+          flex: 1;
+        }
+
+        @font-face {
+          font-family: 'Delicious Handrawn';
+          src: url('https://fonts.googleapis.com/css2?family=Delicious+Handdrawn');
+        }
+        
+        body {
+          
+        }
